@@ -1,0 +1,4 @@
+10: Location(U, L1) & Genre(L1, G) & Genre(L2, G) && L1!=L2 -> Location(U, L2)
+10: Location(U, L1) & City(L1, C) & City(L2, C) & Genre(L1, G) & Genre(L2, G) & L1!=L2 -> Location(U, L2)
+
+// Negative prior.

@@ -1,0 +1,13 @@
+predicates:
+   Genre/2: closed
+   City/2: closed
+   Location/2: open
+observations:
+   City: ../data/kgRecYelp/city_obs.txt
+   Genre: ../data/kgRecYelp/genre_obs.txt
+
+targets:
+   Location: ../data/kgRecYelp/location_targets.txt
+
+truth:
+   Location: ../data/kgRecYelp/location_truth.txt
